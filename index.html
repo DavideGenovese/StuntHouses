@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizzazione Studentesca - Eventi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="Logo Definitivo.png" type="image/x-icon">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+   
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="Logo Definitivo.png" alt="Logo Organizzazione Studentesca"></a>
+        </div>
+        <div class="header-content">
+            <img src="Loading.png">
+        </div>
+       
+    </header>
+
+    <div class="navbar">
+
+        <a class="active" href="#home">HOME</a>
+        <a href="#case">LE NOSTRE CASE</a>
+        <a href="#eventi">I NOSTRI EVENTI</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#contribuire">VUOI CONTRIBUIRE?</a>
+    </div>
+
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="VideoSito.mov" type="video/mp4">
+           
+        </video>
+    </div>
+    <a name="case"></a>
+<div class="griglia" data-aos="fade-down">
+    
+    <div class="backC">
+        <div class="Accademy">
+        <img src="logoLibro.png" alt="">
+    </div>
+        <h1>
+            Miglioramento Accademico 
+        </h1>
+        <p>Alla Casa dello Studente, ci dedichiamo a migliorare le capacità accademiche dei nostri membri attraverso un network di tutor esperti in una varietà di materie. Offriamo lezioni individuali e di gruppo, workshop, laboratori, e assistenza con compiti e progetti. Il nostro supporto è disponibile non solo per bambini e ragazzi, ma anche per adulti desiderosi di continuare la loro educazione.</p>
+    </div>
+    <div class="backC" >
+        <div class="Accademy">
+            <img src="LogoMani.png" alt="">
+        </div>
+        <h1>Attività e Iniziative Studentesche</h1>
+        <p>Attraverso le varie attività, tra cui sport, spettacolo ed eventi di comunità interamente organizzati e gestiti dai nostri studenti, abbiamo già avviato quattro case dello studente.</p>
+    </div>
+    <div class="backC">
+        <div class="Accademy">
+            <img src="LogoCerchio.png" alt="">
+        </div>
+        <h1> Partecipazione e Sostegno</h1>
+        <p>La vostra partecipazione a questi eventi non solo aiuta a sostenere la Casa dello Studente, ma contribuisce anche a creare un senso di comunità e appartenenza tra gli studenti. Vi invitiamo a unirvi a noi in queste iniziative e a contribuire a fare la differenza nella vita degli studenti.</p>
+    </div>
+</div>
+   
+<div class="new-event-container">
+
+
+    <button class="scroll-button left" onclick="scrollNewEvents(-1)">&#10094;</button>
+    <div class="new-event-wrapper" id="newEventWrapper">
+        <div class="new-event-item">
+            <h2>TORINO</h2>
+
+            <img src="casa2.jpg" alt="Evento A">
+            <div class="progress-bar22"><div style="width: 100%;"></div>
+        </div>
+
+            <p id="progress-text" class="mt-[10px] text-center border-2 rounded-md">100% completato</p>
+        </div>
+        <div class="new-event-item">
+            <h2>PALERMO</h2>
+                <img src="Palermo-Esterni.jpg" alt="Evento B">
+            <div class="progress-bar22"><div style="width: 100%;"></div></div>
+            <p id="progress-text" class="mt-[10px] text-center border-2 rounded-md">100% completato</p>
+        </div>
+        <div class="new-event-item">
+            <h2>SIENA</h2>
+
+            <img src="SIENAleisure-.webp" alt="Evento C">
+            <div class="progress-container">
+                    <div  class="progress-bar" id="progress-bar-1"></div>
+                </div>
+                        <p id="progress-text-1">0%</p>
+                    <a href="#contribuire" class="contribuisci">Contribuisci</a>
+            </div>
+
+        <div class="new-event-item">
+            <h2>ROMA</h2>
+
+            <img src="universita-tor-vergata.jpg" alt="Evento D">
+            <div class="progress-container">
+             <div class="progress-bar" id="progress-bar-2"></div>
+            </div>
+                     <p id="progress-text-2">0%</p>
+                    <a href="#contribuire" class="contribuisci">Contribuisci</a>
+                </div>
+
+    </div>
+    <button class="scroll-button right" onclick="scrollNewEvents(1)">&#10095;</button>
+</div>
+    <a name="eventi"></a>
+<div class="griglia" data-aos="fade-right">
+    
+    <div class="backC">
+        <div class="Accademy">
+        <img src="LogoCinema-removebg-preview.png" alt="">
+    </div>
+        <h1>
+            Teatro e Solidarietà 
+        </h1>
+        <p>Unisciti a noi per una serata speciale di teatro e solidarietà con il nostro Spettacolo Teatrale Benefico! Artisti di talento porteranno sul palco una rappresentazione coinvolgente per raccogliere fondi a favore della costruzione di case per lo studente. È un'occasione imperdibile per vivere un'esperienza culturale straordinaria e dare il tuo contributo a una causa significativa. Acquista il tuo biglietto e aiuta a garantire un futuro migliore agli studenti universitari!</p>
+    </div>
+    <div class="backC" >
+        <div class="Accademy">
+            <img src="logomusic-removebg-preview.png" alt="">
+        </div>
+        <h1>Festival Musicale della Solidarietà</h1>
+        <p>Artisti locali e nazionali si esibiranno per raccogliere fondi destinati alla costruzione di case per lo studente, offrendo alloggi sicuri e accoglienti per i giovani universitari. Non perdere l'opportunità di goderti ottima musica e contribuire a una causa importante. Acquista il tuo biglietto e sostieni il futuro degli studenti!</p>
+    </div>
+    <div class="backC">
+        <div class="Accademy">
+            <img src="football-removebg-preview.png" alt="">
+        </div>
+        <h1>Torneo di Calcio Benefico</h1>
+        <p>Vieni a giocare per una buona causa! Il nostro Torneo di Calcio Benefico riunisce squadre locali per una serie di partite emozionanti. Le iscrizioni e le donazioni raccolte serviranno a finanziare la costruzione di case per gli studenti universitari, creando spazi accoglienti e funzionali per il loro percorso di studi. Scendi in campo e fai la differenza!</p>
+    </div>
+</div>
+
+    <div class="event-container">
+        <div class="event-slider">
+            
+            <div class="event-item" id="event1">
+                <a href="BigOpenParty.html" >
+                    <img src="bigopenparty.png" alt="Evento 1: Conferenza" >
+                    
+                </a>
+
+               
+            </div>
+
+            
+
+            <div class="event-item" id="event2">
+                
+                <a href="Incontrerai.html">
+                    
+                    <img src="img4.png" alt="Evento 2: Workshop" >
+                </a>
+            </div>
+            <div class="event-item" id="event3">
+                <a href="TorneoDiCalcio.html">
+                    <img src="img2.png" alt="Evento 3: Networking">
+                </a>
+            </div>
+            <div class="event-item" id="event4"   
+                >
+                <a href="Concerto.html" 
+                    >
+                    <img src="img3.png" alt="Evento 4: Seminario">
+                </a>
+            </div>
+            <div class="event-item" id="event5">
+                <a href="SpettacoloTeatrale.html">
+                    <img src="img5.png" alt="Evento 5: Hackathon">
+                </a>
+            </div>
+        </div>
+        
+    </div>
+
+    <section>
+        <a name="about"></a>
+        <h1>La nostra Vision e Mission</h1>
+        <div class="about" data-aos="flip-right">
+            <div class="about1">
+                <img src="occhio.png" alt="vision">
+                <p>Ma ciò che veramente ci distingue è l'ampia gamma di attività progettate per promuovere la socializzazione e lo sviluppo personale. Lo sport gioca un ruolo centrale nella nostra comunità, con squadre e club per calcio, pallavolo, basket e altre discipline. La musica è celebrata attraverso corsi di strumenti, 
+                    cori e band giovanili, che spesso si esibiscono in concerti aperti alla comunità.</p>
+            </div>
+            <div class="about1">
+                <img src="Mission.png" alt="mission">
+                <p>Con il vostro sostegno e l'entusiasmo dei nostri studenti, continuiamo a crescere e a evolverci, rimanendo fedeli alla nostra missione. Venite a scoprire il vostro spazio, a esplorare i vostri talenti e a imparare il valore della collaborazione e della condivisione. La Casa dello Studente 
+                non è solo un edificio, ma un simbolo di speranza e di possibilità infinite.</p>
+            </div>
+        </div>
+        <div class="carousel">
+            <div class="carousel-track">
+                <div class="carousel-item"><img src="Azienda infissi.jpg" alt="Image 1"></div>
+                <div class="carousel-item"><img src="caffetteria.png" alt="Image 2"></div>
+                <div class="carousel-item"><img src="comune di palermo.jpg" alt="Image 3"></div>
+                <div class="carousel-item"><img src="epson.png" alt="Image 4"></div>
+                <div class="carousel-item"><img src="ikea.png" alt="Image 5"></div>
+                <div class="carousel-item"><img src="Comune torino.png" alt="Image 6"></div>
+                <div class="carousel-item"><img src="comune-di-siena.png" alt="Image 7"></div>
+                <div class="carousel-item"><img src="medaiworls.jpg" alt="Image 8"></div>
+                <div class="carousel-item"><img src="poltronesofà.png" alt="Image 9"></div>
+                <div class="carousel-item"><img src="Reebok-Logo.wine.png" alt="Image 10"></div>
+                <div class="carousel-item"><img src="Azienda infissi.jpg" alt="Image 1"></div>
+                <div class="carousel-item"><img src="caffetteria.png" alt="Image 2"></div>
+                <div class="carousel-item"><img src="comune di palermo.jpg" alt="Image 3"></div>
+                <div class="carousel-item"><img src="epson.png" alt="Image 4"></div>
+                <div class="carousel-item"><img src="ikea.png" alt="Image 5"></div>
+                <div class="carousel-item"><img src="Comune torino.png" alt="Image 6"></div>
+                <div class="carousel-item"><img src="comune-di-siena.png" alt="Image 7"></div>
+                <div class="carousel-item"><img src="medaiworls.jpg" alt="Image 8"></div>
+                <div class="carousel-item"><img src="poltronesofà.png" alt="Image 9"></div>
+                <div class="carousel-item"><img src="Reebok-Logo.wine.png" alt="Image 10"></div>
+            </div>
+    </section>
+    <section data-aos="fade-down-right" style="display: flex; justify-content:center; align-items:center;">
+        <div class="card-container">
+            <div class="card">
+                
+                <div class="card-content">
+                    <h2>Davide Genovese</h2>
+                    
+                    <div class="social-icons1">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-solid fa-at"></i></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="card-content">
+                    <h2>Antonino Canta</h2>
+                    
+                    <div class="social-icons1">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-solid fa-at"></i></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="card-content">
+                    <h2>Elisa Carboni</h2>
+                    
+                    <div class="social-icons1">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-solid fa-at"></i></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="card-content">
+                    <h2>Giuseppe De Caro</h2>
+                    
+                    <div class="social-icons1">
+                        <a href="#"><i class="fa-brands fa-linkedin" ></i></a>
+                        <a href="#"><i class="fa-solid fa-at" ></i></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="card-content">
+                    <h2>Bruno Loyi</h2>
+                    
+                    <div class="social-icons1">
+                        <a href="#"><i class="fa-brands fa-linkedin" ></i></a>
+                        <a href="#"><i class="fa-solid fa-at" ></i></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="card-content">
+                    <h2>Simone Zunino</h2>
+                    
+                    <div class="social-icons1">
+                        <a href="#"><i class="fa-brands fa-linkedin" ></i></a>
+                        <a href="#"><i class="fa-solid fa-at"></i></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a name="contribuire"></a>
+    <section>
+        <div class="form-container" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">>
+            <h1>Contribuisci</h1>
+            <form id="investment-form">
+                <label for="event-select">Select Event:</label>
+                <select id="event-select">
+                    <option value="event1">Casa Siena</option>
+                    <option value="event2">Casa Roma</option>
+                </select>
+                <br>
+                <label for="investment-amount">Scegli quanto devolvere:</label>
+                <input type="number" id="investment-amount" min="0">
+                <br>
+                <button type="submit">Contribuisci</button>
+            </form>
+            <h2>Current Progress</h2>
+            <p id="current-progress">50%</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="logo">
+                <a href="index.html"><img src="Logo Definitivo.png" alt="Logo"></a>
+            </div>
+            <div class="social-icons">
+                <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/casedellostudente/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
